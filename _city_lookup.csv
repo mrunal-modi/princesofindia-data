@@ -1,0 +1,763 @@
+﻿city,state
+hyderabad,karnataka
+jammu and kashmir,jammu and kashmir
+mysore,karnataka
+benares,uttarpradesh
+travancore,kerala
+kalat,balochistan
+kharan,balochistan
+lasbela,balochistan
+makran,balochistan
+akalkot,maharashtra
+aundh,maharashtra
+bhor,maharashtra
+jamkhandi,karnataka
+janjira,maharashtra
+jath,maharashtra
+kolhapur,maharashtra
+ichalkaranji,maharashtra
+kurundvadsenior,maharashtra
+kurundvadjunior,maharashtra
+miraj,maharashtra
+mudhol,karnataka
+phaltan,maharashtra
+sangli,maharashtra
+savanur,karnataka
+sawantvadi,maharashtra
+gwalior,madhyapradesh
+garha,madhyapradesh
+khaniyadhana,madhyapradesh
+ramgadi,uttarpradesh
+rajgarh,madhyapradesh
+rampur,uttarpradesh
+banganapalle,andhrapradesh
+cochin,kerala
+pudukkottai,tamilnadu
+sandur,karnataka
+amb,khyberpakhtunkhwa
+chitral,khyberpakhtunkhwa
+dir,khyberpakhtunkhwa
+phulra,khyberpakhtunkhwa
+swat,khyberpakhtunkhwa
+hunza,gilgit–baltistan
+khairpur,sindh
+bahawalpur,punjab
+bilaspur,himachal pradesh
+faridkot,punjab
+jind,punjabandharyana
+kalsia,haryana
+kangra,himachal pradesh
+kapurthala,punjab
+kumharsain,himachal pradesh
+loharu,haryana
+malerkotla,punjab
+mandi,himachal pradesh
+nabha,punjab
+patiala,punjab
+rajgarh,himachal pradesh
+sirmur,himachal pradesh
+suket/sundernagar,himachal pradesh
+siba,himachal pradesh
+tehrigarhwal,uttarakhand
+alwar,rajasthan
+banswara,rajasthan
+bharatpur,rajasthan
+bikaner,rajasthan
+bundi,rajasthan
+dholpur,rajasthan
+dungarpur,rajasthan
+jaipur,rajasthan
+jaisalmer,rajasthan
+jhalawar,rajasthan
+jodhpur,rajasthan
+karauli,rajasthan
+kishangarh,rajasthan
+kotah,rajasthan
+kushalgarh,rajasthan
+sardargarh,rajasthan
+thikana,rajasthan
+udaipur,rajasthan
+mewar,rajasthan
+"patan,rajasthan",rajasthan
+pratabgarh,rajasthan
+shekhawati,rajasthan
+shahpura,rajasthan
+sirohi,rajasthan
+tonk,rajasthan
+bajana,gujarat
+bansda,gujarat
+manavadar,gujarat
+baroda,gujarat
+bhavnagar,gujarat
+cambay,gujarat
+chhotaudaipur,gujarat
+cutch,gujarat
+charkha,gujarat
+dangs,gujarat
+dhrangadhra,gujarat
+dhrol,gujarat
+gondal,gujarat
+idar,gujarat
+jamnagar,gujarat
+jawhar,gujarat
+junagadh,gujarat
+lathi,gujarat
+limbda,gujarat
+limdi,gujarat
+lunavada,gujarat
+morvi,gujarat
+muli,gujarat
+nawanagar,gujarat
+palanpur,gujarat
+porbandar,gujarat
+poshina,gujarat
+radhanpur,gujarat
+rajkot,gujarat
+rajpara,gujarat
+rajpipla,gujarat
+sachin,gujarat
+sanjeli,gujarat
+sant,gujarat
+surgana,gujarat
+tharad,gujarat
+vanod,gujarat
+mansa,gujarat
+vijaynagar,gujarat
+wadhwan,gujarat
+wankaner,gujarat
+kotdanayani,gujarat
+makajimeghpar,gujarat
+jafarabad,gujarat
+ajaigarh,ajaigarh
+alipura,alipura
+alirajpur,alirajpur
+baraundha,baraundha
+barwani,barwani
+basoda,basoda
+bhaisunda,bhaisunda
+bhopal,bhopal
+bijawar,bijawar
+charkhari,charkhari
+chhatarpur,chhatarpur
+chirgaon,chirgaon
+datia,datia
+dewasjunior,dewasjunior
+dewassenior,dewassenior
+dhar,dhar
+dhurwai,dhurwai
+gaurihar,gaurihar
+gwalior,gwalior
+indore,indore
+jamnia,jamnia
+jaora,jaora
+jaso,jaso
+jobat,jobat
+kamta-rajaula,kamta-rajaula
+khaniadhana,khaniadhana
+khilchipur,khilchipur
+kothi,kothi
+kurwai,kurwai
+maihar,maihar
+makrai,makrai
+muhammadgarh,muhammadgarh
+nagod,nagod
+narsighgarh,narsighgarh
+orchha,orchha
+pahra,pahra
+paldeo,paldeo
+panna,panna
+pathari,pathari
+piploda,piploda
+rajgarh,rajgarh
+ratlam,ratlam
+rewa,rewa
+sailana,sailana
+sitamau,sitamau
+sohawal,sohawal
+taraon,taraon
+torifatehpur,torifatehpur
+athgarh,athgarh
+athmallik,athmallik
+bamra,bamra
+baramba,baramba
+baudh,baudh
+bonai,bonai
+daspalla,daspalla
+dhenkanal,dhenkanal
+gangpur,gangpur
+hindol,hindol
+kalahandi(karond),kalahandi(karond)
+keonjhar,keonjhar
+khandpara,khandpara
+kharsawan,kharsawan
+mayurbhanj,mayurbhanj
+narsinghpur,narsinghpur
+nayagarh,nayagarh
+nilgiri,nilgiri
+pallahara,pallahara
+patna(balangir),patna(balangir)
+rairakhol,rairakhol
+ranpur,ranpur
+seraikela,seraikela
+sonepur,sonepur
+talcher,talcher
+tigiria,tigiria
+bastar,bastar
+changbhakar,changbhakar
+chhuikandan,chhuikandan
+jashpur,jashpur
+kanker,kanker
+kawardha,kawardha
+khairagarh,khairagarh
+koriya(korea),koriya(korea)
+nandgaon,nandgaon
+raigarh,raigarh
+sakti,sakti
+sarangarh,sarangarh
+surguja,surguja
+udaipur(dharamjaigarh),udaipur(dharamjaigarh)
+coochbehar,coochbehar
+tripura,tripura
+idar,idar
+danta,danta
+vijaynagar(pol),vijaynagar(pol)
+malpur,malpur
+mansa,mansa
+mohanpur,mohanpur
+ilol,ilol
+katosan,katosan
+ambaliara,ambaliara
+pethapur,pethapur
+punadra,punadra
+ranasa,ranasa
+dabha,dabha
+dadhalia,dadhalia
+rupal,rupal
+varsoda,varsoda
+vasna,vasna
+ballabhgarh,ballabhgarh
+banpur,banpur
+bhaddaiyanraj,bhaddaiyanraj
+bijeraghogarh,bijeraghogarh
+khaddi,khaddi
+kulpahar,kulpahar
+purwa,purwa
+shahgarh,shahgarh
+tiroha,tiroha
+tulsipur,tulsipur
+udaipur,udaipur
+vallabhipura,vallabhipura
+manipur,manipur
+carnatic,carnatic
+sivagangai,sivagangai
+guler,guler
+jaitpur,jaitpur
+jalaun,jalaun
+jaswan,jaswan
+jhansi,jhansi
+kangra,kangra
+kumaon,kumaon
+lakhahi,lakhahi
+kutlehar,kutlehar
+"punjab,multan","punjab,multan"
+nagpur,nagpur
+nurpur,nurpur
+oudh,oudh
+ramgarh,ramgarh
+satara,satara
+sambalpur,sambalpur
+siba,siba
+tanjore,tanjore
+abohar ,punjab
+achalpur ,maharashtra
+adilabad ,andhra pradesh
+adityapur ,jharkhand
+adoni ,andhra pradesh
+agartala ,tripura
+agra ,uttar pradesh
+ahmedabad ,gujarat
+ahmednagar ,maharashtra
+aizawl ,mizoram
+ajmer ,rajasthan
+akbarpur ,uttar pradesh
+akola ,maharashtra
+alandur ,tamil nadu
+alappuzha ,kerala
+aligarh ,uttar pradesh
+allahabad ,uttar pradesh
+alwar ,rajasthan
+ambala ,haryana
+ambala sadar ,haryana
+ambarnath ,maharashtra
+ambattur ,tamil nadu
+ambikapur ,chhattisgarh
+ambur ,tamil nadu
+amravati ,maharashtra
+amreli ,gujarat
+amritsar ,punjab
+amroha ,uttar pradesh
+anand ,gujarat
+anantapur ,andhra pradesh
+anantnag ,jammu & kashmir
+arrah ,bihar
+asansol ,west bengal
+ashoknagar kalyangarh ,west bengal
+aurangabad ,bihar
+aurangabad ,maharashtra
+avadi ,tamil nadu
+azamgarh ,uttar pradesh
+badlapur ,maharashtra
+bagaha ,bihar
+bagalkot ,karnataka
+bahadurgarh ,haryana
+baharampur ,west bengal
+bahraich ,uttar pradesh
+baidyabati ,west bengal
+baleshwar town ,orissa
+ballia ,uttar pradesh
+bally ,west bengal
+bally city,west bengal
+balurghat ,west bengal
+banda ,uttar pradesh
+bankura ,west bengal
+bansberia ,west bengal
+banswara ,rajasthan
+baran ,rajasthan
+baranagar ,west bengal
+barasat ,west bengal
+baraut ,uttar pradesh
+barddhaman ,west bengal
+bareilly ,uttar pradesh
+baripada town ,orissa
+barnala ,punjab
+barrackpur ,west bengal
+barshi ,maharashtra
+basirhat ,west bengal
+basti ,uttar pradesh
+batala ,punjab
+bathinda ,punjab
+beawar ,rajasthan
+begusarai ,bihar
+belgaum ,karnataka
+bellary ,karnataka
+bengaluru,karnataka
+bettiah ,bihar
+betul ,madhya pradesh
+bhadrak ,orissa
+bhadravati ,karnataka
+bhadreswar ,west bengal
+bhagalpur ,bihar
+bhalswa jahangir pur ,nct of delhi
+bharatpur ,rajasthan
+bharuch ,gujarat
+bhatpara ,west bengal
+bhavnagar ,gujarat
+bhilai nagar ,chhattisgarh
+bhilwara ,rajasthan
+bhimavaram ,andhra pradesh
+bhind ,madhya pradesh
+bhiwadi ,rajasthan
+bhiwandi ,maharashtra
+bhiwani ,haryana
+bhopal ,madhya pradesh
+bhubaneswar ,orissa
+bhuj ,gujarat
+bhusawal ,maharashtra
+bid ,maharashtra
+bidar ,karnataka
+bidhan nagar ,west bengal
+biharsharif ,bihar
+bijapur ,karnataka
+bikaner ,rajasthan
+bilaspur ,chhattisgarh
+bokaro steel city ,jharkhand
+bongaon ,west bengal
+botad ,gujarat
+brahmapur town ,orissa
+budaun ,uttar pradesh
+bulandshahr ,uttar pradesh
+bundi ,rajasthan
+burari ,nct of delhi
+burhanpur ,madhya pradesh
+buxar ,bihar
+champdani ,west bengal
+chandannagar ,west bengal
+chandausi ,uttar pradesh
+chandigarh ,chandigarh
+chandrapur ,maharashtra
+chapra ,bihar
+chas ,jharkhand
+chennai ,tamil nadu
+chhattarpur ,madhya pradesh
+chhindwara ,madhya pradesh
+chikmagalur ,karnataka
+chilakaluripet ,andhra pradesh
+chitradurga ,karnataka
+chittaurgarh ,rajasthan
+chittoor ,andhra pradesh
+churu ,rajasthan
+coimbatore ,tamil nadu
+cuddalore ,tamil nadu
+cuttack ,orissa
+dabgram ,west bengal
+dallo pura ,nct of delhi
+damoh ,madhya pradesh
+darbhanga ,bihar
+darjiling ,west bengal
+datia ,madhya pradesh
+davanagere ,karnataka
+deesa ,gujarat
+dehradun ,uttarakhand
+dehri ,bihar
+delhi ,nct of delhi
+delhi cantonment ,nct of delhi
+deoghar ,jharkhand
+deoli ,nct of delhi
+deoria ,uttar pradesh
+dewas ,madhya pradesh
+dhanbad ,jharkhand
+dharmavaram ,andhra pradesh
+dhaulpur ,rajasthan
+dhule ,maharashtra
+dibrugarh ,assam
+dimapur ,nagaland
+dinapur nizamat ,bihar
+dindigul ,tamil nadu
+dum dum ,west bengal
+durg ,chhattisgarh
+durgapur ,west bengal
+eluru ,andhra pradesh
+english bazar ,west bengal
+erode ,tamil nadu
+etah ,uttar pradesh
+etawah ,uttar pradesh
+faizabad ,uttar pradesh
+faridabad ,haryana
+farrukhabad-cum-fatehgarh ,uttar pradesh
+fatehpur ,uttar pradesh
+firozabad ,uttar pradesh
+firozpur ,punjab
+gadag-betigeri ,karnataka
+gandhidham ,gujarat
+gandhinagar ,gujarat
+ganganagar ,rajasthan
+gangapur city ,rajasthan
+gangawati ,karnataka
+gaya ,bihar
+ghazipur ,uttar pradesh
+giridih ,jharkhand
+godhra ,gujarat
+gokal pur ,nct of delhi
+gonda ,uttar pradesh
+gondal ,gujarat
+gondiya ,maharashtra
+gorakhpur ,uttar pradesh
+greater hyderabad ,andhra pradesh
+greater mumbai ,maharashtra
+greater noida ,uttar pradesh
+gudivada ,andhra pradesh
+gulbarga ,karnataka
+guna ,madhya pradesh
+guntakal ,andhra pradesh
+guntur ,andhra pradesh
+gurgaon ,haryana
+guwahati ,assam
+gwalior ,madhya pradesh
+habra ,west bengal
+hajipur ,bihar
+haldia ,west bengal
+haldwani-cum-kathgodam ,uttarakhand
+halisahar ,west bengal
+hanumangarh ,rajasthan
+haora ,west bengal
+hapur ,uttar pradesh
+hardoi ,uttar pradesh
+hardwar ,uttarakhand
+hassan ,karnataka
+hastsal ,nct of delhi
+hathras ,uttar pradesh
+hazaribag ,jharkhand
+hindaun ,rajasthan
+hindupur ,andhra pradesh
+hinganghat ,maharashtra
+hisar ,haryana
+hoshangabad ,madhya pradesh
+hoshiarpur ,punjab
+hospet ,karnataka
+hosur ,tamil nadu
+hubli-dharwad ,karnataka
+hugli-chinsurah ,west bengal
+ichalkaranji ,maharashtra
+imphal ,manipur 
+indore ,madhya pradesh
+jabalpur ,madhya pradesh
+jagadhri ,haryana
+jagdalpur ,chhattisgarh
+jaipur ,rajasthan
+jalandhar ,punjab
+jalgaon ,maharashtra
+jalna ,maharashtra
+jalpaiguri ,west bengal
+jamalpur ,bihar
+jammu ,jammu & kashmir
+jamnagar ,gujarat
+jamshedpur ,jharkhand
+jamuria ,west bengal
+jaunpur ,uttar pradesh
+jehanabad ,bihar
+jetpur navagadh ,gujarat
+jhansi ,uttar pradesh
+jhunjhunun ,rajasthan
+jind ,haryana
+jodhpur ,rajasthan
+junagadh ,gujarat
+kadapa ,andhra pradesh
+kaithal ,haryana
+kakinada ,andhra pradesh
+kalol ,gujarat
+kalyani ,west bengal
+kamarhati ,west bengal
+kancheepuram ,tamil nadu
+kanchrapara ,west bengal
+kanpur ,uttar pradesh
+kanpur city,uttar pradesh
+karaikkudi ,tamil nadu
+karawal nagar ,nct of delhi
+karimnagar ,andhra pradesh
+karnal ,haryana
+kasganj ,uttar pradesh
+kashipur ,uttarakhand
+katihar ,bihar
+khammam ,andhra pradesh
+khandwa ,madhya pradesh
+khanna ,punjab
+kharagpur ,west bengal
+khardaha ,west bengal
+khargone ,madhya pradesh
+khora ,uttar pradesh
+khurja ,uttar pradesh
+kirari suleman nagar ,nct of delhi
+kishanganj ,bihar
+kishangarh ,rajasthan
+kochi ,kerala
+kolar ,karnataka
+kolhapur ,maharashtra
+kolkata ,west bengal
+kollam ,kerala
+korba ,chhattisgarh
+kota ,rajasthan
+kozhikode ,kerala
+krishnanagar ,west bengal
+kulti ,west bengal
+kumbakonam ,tamil nadu
+kurichi ,tamil nadu
+kurnool ,andhra pradesh
+lakhimpur ,uttar pradesh
+lalitpur ,uttar pradesh
+latur ,maharashtra
+loni ,uttar pradesh
+lucknow ,uttar pradesh
+ludhiana ,punjab
+machilipatnam ,andhra pradesh
+madanapalle ,andhra pradesh
+madavaram ,tamil nadu
+madhyamgram ,west bengal
+madurai ,tamil nadu
+mahbubnagar ,andhra pradesh
+mahesana ,gujarat
+maheshtala ,west bengal
+mainpuri ,uttar pradesh
+malegaon ,maharashtra
+malerkotla ,punjab
+mandoli ,nct of delhi
+mandsaur ,madhya pradesh
+mandya ,karnataka
+mangalore ,karnataka
+mango ,jharkhand
+mathura ,uttar pradesh
+maunath bhanjan ,uttar pradesh
+medinipur ,west bengal
+meerut ,uttar pradesh
+mira bhayander ,maharashtra
+miryalaguda ,andhra pradesh
+mirzapur-cum-vindhyachal ,uttar pradesh
+modinagar ,uttar pradesh
+moga ,punjab
+moradabad ,uttar pradesh
+morena ,madhya pradesh
+morvi ,gujarat
+motihari ,bihar
+mughalsarai ,uttar pradesh
+muktsar ,punjab
+munger ,bihar
+murwara ,madhya pradesh
+mustafabad ,nct of delhi
+muzaffarnagar ,uttar pradesh
+muzaffarpur ,bihar
+mysore ,karnataka
+nabadwip ,west bengal
+nadiad ,gujarat
+nagaon ,assam
+nagapattinam ,tamil nadu
+nagaur ,rajasthan
+nagda ,madhya pradesh
+nagercoil ,tamil nadu
+nagpur ,maharashtra
+naihati ,west bengal
+nalgonda ,andhra pradesh
+nanded waghala ,maharashtra
+nandurbar ,maharashtra
+nandyal ,andhra pradesh
+nangloi jat ,nct of delhi
+narasaraopet ,andhra pradesh
+nashik ,maharashtra
+navi mumbai ,maharashtra
+navi mumbai panvel raigarh ,maharashtra
+navsari ,gujarat
+neemuch ,madhya pradesh
+nellore ,andhra pradesh
+new delhi ,nct of delhi
+neyveli ,tamil nadu
+nizamabad ,andhra pradesh
+noida ,uttar pradesh
+north barrackpur ,west bengal
+north dum dum ,west bengal
+ongole ,andhra pradesh
+orai ,uttar pradesh
+osmanabad ,maharashtra
+ozhukarai ,puducherry
+palakkad ,kerala
+palanpur ,gujarat
+pali ,rajasthan
+pallavaram ,tamil nadu
+palwal ,haryana
+panchkula ,haryana
+panihati ,west bengal
+panipat ,haryana
+panvel ,maharashtra
+parbhani ,maharashtra
+patan ,gujarat
+pathankot ,punjab
+patiala ,punjab
+patna ,bihar
+pilibhit ,uttar pradesh
+pimpri chinchwad ,maharashtra
+pithampur ,madhya pradesh
+porbandar ,gujarat
+port blair ,andaman & nicobar islands
+proddatur ,andhra pradesh
+puducherry ,puducherry
+pudukkottai ,tamil nadu
+pune ,maharashtra
+puri ,orissa
+purnia ,bihar
+puruliya ,west bengal
+rae bareli ,uttar pradesh
+raichur ,karnataka
+raiganj ,west bengal
+raigarh ,chhattisgarh
+raipur ,chhattisgarh
+rajahmundry ,andhra pradesh
+rajapalayam ,tamil nadu
+rajarhat gopalpur ,west bengal
+rajkot ,gujarat
+rajnandgaon ,chhattisgarh
+rajpur sonarpur ,west bengal
+ramagundam ,andhra pradesh
+rampur ,uttar pradesh
+ranchi ,jharkhand
+ranibennur ,karnataka
+raniganj ,west bengal
+ratlam ,madhya pradesh
+raurkela industrial township ,orissa
+raurkela town ,orissa
+rewa ,madhya pradesh
+rewari ,haryana
+rishra ,west bengal
+robertson pet ,karnataka
+rohtak ,haryana
+roorkee ,uttarakhand
+rudrapur ,uttarakhand
+s.a.s. nagar ,punjab
+sagar ,madhya pradesh
+saharanpur ,uttar pradesh
+saharsa ,bihar
+salem ,tamil nadu
+sambalpur ,orissa
+sambhal ,uttar pradesh
+sangli miraj kupwad ,maharashtra
+santipur ,west bengal
+sasaram ,bihar
+satara ,maharashtra
+satna ,madhya pradesh
+sawai madhopur ,rajasthan
+secunderabad ,andhra pradesh
+sehore ,madhya pradesh
+seoni ,madhya pradesh
+serampore ,west bengal
+shahjahanpur ,uttar pradesh
+shamli ,uttar pradesh
+shikohabad ,uttar pradesh
+shillong ,meghalaya
+shimla ,himachal pradesh
+shimoga ,karnataka
+shivpuri ,madhya pradesh
+sikar ,rajasthan
+silchar ,assam
+siliguri ,west bengal
+singrauli ,madhya pradesh
+sirsa ,haryana
+sitapur ,uttar pradesh
+siwan ,bihar
+solapur ,maharashtra
+sonipat ,haryana
+south dum dum ,west bengal
+srikakulam ,andhra pradesh
+srinagar ,jammu & kashmir
+sujangarh ,rajasthan
+sultan pur majra ,nct of delhi
+sultanpur ,uttar pradesh
+surat ,gujarat
+surendranagar dudhrej ,gujarat
+suryapet ,andhra pradesh
+tadepalligudem ,andhra pradesh
+tadpatri ,andhra pradesh
+tambaram ,tamil nadu
+tenali ,andhra pradesh
+thane ,maharashtra
+thanesar ,haryana
+thanjavur ,tamil nadu
+thiruvananthapuram ,kerala
+thoothukkudi ,tamil nadu
+thrissur ,kerala
+tiruchirappalli ,tamil nadu
+tirunelveli ,tamil nadu
+tirupati ,andhra pradesh
+tiruppur ,tamil nadu
+tiruvannamalai ,tamil nadu
+tiruvottiyur ,tamil nadu
+titagarh ,west bengal
+tonk ,rajasthan
+tumkur ,karnataka
+udaipur ,rajasthan
+udgir ,maharashtra
+udupi ,karnataka
+ujjain ,madhya pradesh
+ulhasnagar ,maharashtra
+uluberia ,west bengal
+unnao ,uttar pradesh
+uttarpara kotrung ,west bengal
+vadodara ,gujarat
+valsad ,gujarat
+varanasi ,uttar pradesh
+vasai virar city ,maharashtra
+vellore ,tamil nadu
+veraval ,gujarat
+vidisha ,madhya pradesh
+vijayawada ,andhra pradesh
+visakhapatnam,andhra pradesh
+vizianagaram ,andhra pradesh
+warangal ,andhra pradesh
+wardha ,maharashtra
+yamunanagar ,haryana
+yavatmal ,maharashtra
