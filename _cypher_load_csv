@@ -10,14 +10,31 @@ MERGE (l)-[:PART_OF]->(r)
 ====== Queries
 
 List All Persons Matching Partial Name (Case-Insensitive):
-
 MATCH (p:Person)
 WHERE p.name CONTAINS 'KHAN'
 RETURN p.name, p.bio
 
 
 Find Persons in a Specific Location (Case-Insensitive):
-
 MATCH (p:Person)-[:LOCATED_IN]->(l:Location)
 WHERE l.name =~ '(?i)ahmedabad'
 RETURN p.name
+
+
+To identify which location has the most Person nodes associated with it
+MATCH (p:Person)-[:LOCATED_IN]->(l:Location)
+WHERE l.name <> 'NA'  // Exclude locations named 'NA'
+RETURN l.name, COUNT(p) AS NumberOfPersons
+ORDER BY NumberOfPersons DESC
+LIMIT 1
+
+
+====== Queries returning as a graph in the Neo4j Browser to visualize
+
+List All Persons 
+MATCH (n)-[r]->(m) RETURN n,r,m
+
+List All Persons in a given location
+MATCH (p:Person)-[r:LOCATED_IN]->(l:Location)
+WHERE l.name =~ '(?i)ahmedabad'
+RETURN p, r, l
