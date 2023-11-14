@@ -9,19 +9,15 @@ MERGE (l)-[:PART_OF]->(r)
 
 ====== Queries
 
-Find a Specific Person (Case-Insensitive):
-MATCH (p:Person) 
-WHERE p.name =~ '.*KUBER.*'
-RETURN p
+List All Persons Matching Partial Name (Case-Insensitive):
+
+MATCH (p:Person)
+WHERE p.name CONTAINS 'KHAN'
+RETURN p.name, p.bio
 
 
 Find Persons in a Specific Location (Case-Insensitive):
+
 MATCH (p:Person)-[:LOCATED_IN]->(l:Location)
 WHERE l.name =~ '(?i)ahmedabad'
 RETURN p.name
-
-
-List All Persons Matching Partial Name (Case-Insensitive):
-MATCH (p:Person)
-WHERE p.name CONTAINS 'KUBER'
-RETURN p.name, p.bio
