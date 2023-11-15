@@ -28,6 +28,15 @@ MERGE (p)-[:RELATED_TO]->(s)
 """
 
 
+========== VIZ
+
+# Display the first 25 Person nodes (and their related State nodes) that have a location matching "Ahmedabad" in a case-insensitive manner.
+MATCH (p:Person)-[r:RELATED_TO]->(s:State)
+WHERE any(location IN p.locations WHERE toLower(location) = 'ahmedabad')
+RETURN p, r, s
+LIMIT 25;
+
+
 ========== Explore 
 
 # Query to find all persons in a specific state
