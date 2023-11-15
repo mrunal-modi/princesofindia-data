@@ -1,0 +1,92 @@
+
+========== Reset 
+
+reset_db = """
+MATCH (n) DETACH DELETE n
+"""
+
+
+========== Load 
+
+
+query_persons = """
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/mrunal-modi/princesofindia-data/main/v2/_persons_v2.csv' AS row
+MERGE (p:Person {name: row.name})
+SET p.bio = row.bio, p.region = row.region, p.locations = split(substring(row.locations, 1, size(row.locations) - 2), "', '")
+"""
+
+query_states = """
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/mrunal-modi/princesofindia-data/main/v2/_states_v2.csv' AS row
+MERGE (s:State {state: row.state})
+SET s.state_description = row.state_description, s.state_type = row.state_type, s.locations = split(substring(row.locations, 1, size(row.locations) - 2), "', '")
+"""
+
+query_relationships = """
+MATCH (p:Person), (s:State)
+WHERE any(location IN p.locations WHERE location IN s.locations)
+MERGE (p)-[:RELATED_TO]->(s)
+"""
+
+
+========== Explore 
+
+# Query to find all persons in a specific state
+query_persons_in_state = """
+MATCH (p:Person)-[:RELATED_TO]->(s:State {state: 'Baroda'})
+RETURN p.name, p.bio
+"""
+
+# Query to count persons in each state
+query_count_persons_in_states = """
+MATCH (p:Person)-[:RELATED_TO]->(s:State)
+RETURN s.state, count(p) AS NumberOfPersons
+ORDER BY NumberOfPersons DESC
+"""
+
+# Query to find persons with shared locations
+query_persons_shared_locations = """
+MATCH (p1:Person)-[:RELATED_TO]->(s:State)<-[:RELATED_TO]-(p2:Person)
+WHERE p1.name < p2.name
+RETURN p1.name, p2.name, s.state
+"""
+
+# Query to find states with most connected persons
+query_states_most_persons = """
+MATCH (p:Person)-[:RELATED_TO]->(s:State)
+RETURN s.state, count(p) AS NumberOfPersons
+ORDER BY NumberOfPersons DESC
+LIMIT 5
+"""
+
+# Query to find persons with most shared locations
+query_persons_most_shared_locations = """
+MATCH (p:Person)-[:RELATED_TO]->(s:State)
+WITH p, count(s) AS sharedLocations
+RETURN p.name, sharedLocations
+ORDER BY sharedLocations DESC
+LIMIT 10
+"""
+
+# Query to explore location connections between states and persons
+query_explore_location_connections = """
+MATCH path = (p:Person)-[:RELATED_TO]->(s:State)
+RETURN path
+LIMIT 50
+"""
+
+# Query to find isolated persons
+query_isolated_persons = """
+MATCH (p:Person)
+WHERE NOT (p)-[:RELATED_TO]->(:State)
+RETURN p.name
+"""
+
+# Query to find persons with specific bio keywords
+query_persons_specific_bio_keywords = """
+MATCH (p:Person)
+WHERE p.bio CONTAINS 'leader'
+RETURN p.name, p.bio
+"""
+
+# Example of how to run one of these queries
+# run_cypher_query(driver, query_persons_in_state)
