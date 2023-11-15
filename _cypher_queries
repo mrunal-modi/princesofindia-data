@@ -1,0 +1,17 @@
+// Reset
+MATCH (n) DETACH DELETE n
+
+// Load Persons
+LOAD CSV WITH HEADERS FROM 'https://github.com/mrunal-modi/princesofindia-data/blob/main/v2/_persons_v2.csv' AS row
+MERGE (p:Person {name: row.name})
+SET p.bio = row.bio, p.region = row.region, p.locations = split(substring(row.locations, 1, size(row.locations) - 2), "', '")
+
+// Load States
+LOAD CSV WITH HEADERS FROM 'https://github.com/mrunal-modi/princesofindia-data/blob/main/v2/_states_v2.csv' AS row
+MERGE (s:State {state: row.state})
+SET s.state_description = row.state_description, s.state_type = row.state_type, s.locations = split(substring(row.locations, 1, size(row.locations) - 2), "', '")
+
+// Create Relationships
+MATCH (p:Person), (s:State)
+WHERE any(location IN p.locations WHERE location IN s.locations)
+MERGE (p)-[:RELATED_TO]->(s)
